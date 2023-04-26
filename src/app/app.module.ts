@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { HeroesListsComponent } from './Components/heroes-lists/heroes-lists.component';
 
 import { FormsModule } from '@angular/forms';
+import { ItemListComponent } from './Components/item-list/item-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeroesListsComponent
+    HeroesListsComponent,
+    ItemListComponent
   ],
   imports: [
     BrowserModule,

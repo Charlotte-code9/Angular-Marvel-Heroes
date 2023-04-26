@@ -15,4 +15,18 @@
 
 
 <app-heroes-lists>/</app-heroes-lists>
+
+
+<div class="item-list">
+
+<app-item-list (newItemEvent)="addItem($event)"></app-item-list>
+
+<ul>
+  <li *ngFor="let item of items">{{item}}</li>
+</ul>
+
+</div>
+  
+  
+
 <router-outlet></router-outlet>

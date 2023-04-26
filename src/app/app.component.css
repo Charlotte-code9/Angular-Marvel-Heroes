@@ -40,6 +40,18 @@
     border-top-left-radius: 10px;
   }
 
+  .item-list {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .item-list ul {
+      list-style-type: none;
+      padding: 0; 
+      margin-top: 20px;
+
+    }
+  
 
   .content {
     display: flex;
